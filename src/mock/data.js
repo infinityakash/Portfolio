@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Akash Joshi',
+  subtitle: 'Graduate Student at Arizona State University',
   cta: '',
 };
 
@@ -59,20 +59,20 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'ajoshi37@asu.edu',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
+      name: 'indeed',
       url: '',
     },
     {
