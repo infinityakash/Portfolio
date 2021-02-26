@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: '', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Welcome to my Website', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -18,31 +18,30 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Computer Science student at Arizona State University, looking for full time opportunity in the Software development industry.',
+  paragraphTwo: '3 years of proven experience in full stack software development, data visualization and big data ecosystems. Deep understanding of Enterprise Resource Planning ecosystem and adept at dealing with customers and clients',
+  paragraphThree: 'Experience in implementing Machine Learning algorithm and state of the art data mining techniques',
+  resume: '', // if no resume, the button will not show up https://www.resumemaker.online/es.php
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'skymart.png',
+    title: 'SkyMart - E Commerce Website',
+    info: 'Developed using the MERN stack',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://skymart.herokuapp.com/',
+    repo: 'https://github.com/infinityakash/E-Commerce-Website', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'Overview.png',
+    title: 'Data Visualization Spatio Temporal Dashboard',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/infinityakash/VAST-2017-Mini-Challenge', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -73,17 +72,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'indeed',
-      url: '',
+      url: 'https://my.indeed.com/p/akashj-orp0p4q',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/akashjoshi11/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/infinityakash/',
     },
   ],
 };
