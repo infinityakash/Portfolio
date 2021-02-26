@@ -43,15 +43,15 @@ export const projectsData = [
     info2: '',
     repo: 'https://github.com/infinityakash/VAST-2017-Mini-Challenge', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
